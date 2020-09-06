@@ -36,8 +36,6 @@
     align-items: center;
     right: 1px;
     position: absolute;
-    /* make it so that then its small padding gets smaller too
-   */
 }
 
 #achieved-number {
