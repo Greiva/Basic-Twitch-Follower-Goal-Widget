@@ -1,0 +1,40 @@
+{
+  "widgetName": {
+    "type": "hidden",
+    "value": "Advanced follower counter"
+  },
+    "totalBarColor": {
+    "type": "colorpicker",
+    "label": "Bar Primary Color",
+    "value": "#6a5acd"
+  },
+  "progressBarColor": {
+    "type": "colorpicker",
+    "label": "Progress Bar Color",
+    "value": "#ff6347"
+  },
+    "barHeight": {
+       "type": "number",
+    "label": "Bar Height",
+    "value": 50,
+    "min": 1,
+    "max": 500,
+    "step": 1
+  },
+    "goalstart":{
+    "type": "number",
+    "label": "Start point",
+    "value": 0,
+    "min": 0,
+    "max": 10000000,
+    "step": 1
+  },
+  "goalend":{
+    "type": "number",
+    "label": "End point",
+    "value": 1,
+    "min": 0,
+    "max": 10000000,
+    "step": 1
+  }
+}
