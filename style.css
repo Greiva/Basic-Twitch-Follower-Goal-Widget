@@ -1,0 +1,54 @@
+#main-container {
+  width: 500px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.progress-bar {
+  background-color: {{totalBarColor}};
+  height: {{barHeight}}px;
+    border-radius: 50px;
+    position: relative;
+}
+
+#progress-bar-complete {
+    min-width: 40px;
+  background-color: {{progressBarColor}};
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 50px;
+    width: 1%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    max-width: 100%;
+}
+
+#goal-number {
+    font-weight: bolder;
+    font-size:40px;
+    color: white;
+    height: 100%;
+    padding-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    right: 1px;
+    position: absolute;
+    /* make it so that then its small padding gets smaller too
+   */
+}
+
+#achieved-number {
+    font-weight: bolder;
+  font-size:40px;
+    color: white;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 1px;
+    position: absolute;
+}
